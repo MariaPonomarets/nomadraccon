@@ -8,15 +8,26 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint src/** --ext .ts,.tsx",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "reset": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && yarn start"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.6",
+    "@react-native-firebase/app": "^6.2.0",
     "@types/jest": "^24.0.25",
     "@types/react": "^16.9.17",
     "@types/react-native": "^0.60.30",
     "@types/react-test-renderer": "^16.9.1",
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-firebase": "^5.6.0",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.6.4",
+    "react-native-screens": "^2.0.0-alpha.32",
+    "react-navigation": "^4.1.0",
+    "react-navigation-stack": "^2.0.16",
+    "react-navigation-tabs": "^2.7.0",
     "typescript": "^3.7.4"
   },
   "devDependencies": {

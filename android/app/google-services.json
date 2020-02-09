@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1006507405134",
+    "firebase_url": "https://nomadraccoon-1be66.firebaseio.com",
+    "project_id": "nomadraccoon-1be66",
+    "storage_bucket": "nomadraccoon-1be66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006507405134:android:c3177ed8c8597b58f8381f",
+        "android_client_info": {
+          "package_name": "com.nomadraccoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006507405134-2grjhber5hmkqit42thn8njeqnurtcgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzzp1kb7Yu-kNr_no8kk9r_U_di4PhhcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006507405134-2grjhber5hmkqit42thn8njeqnurtcgv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1006507405134-j6gardika0c7itm08gk5nni4tuobb1lk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.NomadRaccoon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
