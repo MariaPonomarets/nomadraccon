@@ -10,7 +10,7 @@ import useLogin from './useLogin'
 const LoginScreen = () => {
   const navigation = useNavigation()
   const { theme, dimensions } = useContext(ThemeContext)
-  const { email, password, togglePasswordVisibility } = useLogin()
+  const { email, password, togglePasswordVisibility, loading } = useLogin()
   const styles = createStyles({ theme, dimensions })
 
   return (

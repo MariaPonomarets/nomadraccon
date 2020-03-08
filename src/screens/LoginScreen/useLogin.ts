@@ -10,6 +10,7 @@ const useLogin = () => {
   const [password, setPassword] = useState<string>('')
   const [errors, setErrors] = useState<Errors>({ email: '', password: '' })
   const [secureTextEntry, setSecureTextEntry] = useState<boolean>(true)
+  const [loading, setLoading] = useState<boolean>(false)
 
   const passwordRef: RefObject<TextInput> = useRef(null)
 
@@ -57,6 +58,8 @@ const useLogin = () => {
 
   return {
     submit: auth,
+    submitButtonDisabled:
+      !passwordValidation(password) || !emailValidation(email) || loading,
     togglePasswordVisibility: handleSetPasswordVisible,
     email: {
       inputProps: {
